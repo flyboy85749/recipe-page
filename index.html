@@ -11,7 +11,19 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
     <title>Frontend Mentor | Recipe page</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -26,12 +38,12 @@
     </style>
   </head>
   <body>
-    <container>
+    <div class="container">
       <section class="recipe">
-        <img src="http://placehold.it/" alt="placeholder" />
-        <span class="title">Simple Omelette Recipe</span>
+        <img src="./assets/images/image-omelette.jpeg" alt="omelette image" />
+        <h1 class="recipe-title">Simple Omelette Recipe</h1>
         <span class="description"
-          ><p>
+          ><p class="stone-600">
             An easy and quick dish, perfect for any meal. This classic omelette
             combines beaten eggs cooked to perfection, optionally filled with
             your choice of cheese, vegetables, or meats.
@@ -39,7 +51,7 @@
         >
       </section>
       <section class="prep">
-        <h2>Preparation time</h2>
+        <h3 class="prep-time">Preparation time</h3>
         <ul>
           <li>Total: Approximately 10 minutes</li>
           <li>Preparation: 5 minutes</li>
@@ -47,7 +59,7 @@
         </ul>
       </section>
       <section class="ingredients">
-        <span class="ingredients-title">Ingredients</span>
+        <h2 class="ingredients-title">Ingredients</h2>
         <ul>
           <li>2-3 large eggs</li>
           <li>Salt, to taste</li>
@@ -59,7 +71,7 @@
         </ul>
       </section>
       <section class="instructions">
-        <span class="instructions-title">Instructions</span>
+        <h2 class="instructions-title">Instructions</h2>
         <ol>
           <li>
             <span class="steps">Beat the eggs:</span>
@@ -106,7 +118,7 @@
         </ol>
       </section>
       <section class="nutrition">
-        <span class="nutrition-title"> Nutrition </span>
+        <h2 class="nutrition-title">Nutrition</h2>
         <p>
           The table below shows nutritional values per serving without the
           additional fillings.
@@ -116,7 +128,7 @@
           Calories 277kcal Carbs 0g Protein 20g Fat 22g
         </table>
       </section>
-    </container>
+    </div>
 
     <div class="attribution">
       Challenge by

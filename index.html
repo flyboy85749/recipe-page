@@ -27,15 +27,6 @@
     <title>Frontend Mentor | Recipe page</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <div class="container">
@@ -78,67 +69,110 @@
         <h2 class="instructions-title">Instructions</h2>
         <ol>
           <li>
-            <span class="steps">Beat the eggs:</span>
-            <p>
+            
+              <p></p><span class="steps bold">Beat the eggs:</span>
+              <span class="stone-600">
               In a bowl, beat the eggs with a pinch of salt and pepper until
               they are well mixed. You can add a tablespoon of water or milk for
               a fluffier texture.
-            </p>
+            </span></p>
           </li>
           <li>
-            <span class="steps">Heat the pan:</span>
-            <p>
+            
+              <p><span class="steps bold">Heat the pan:</span>
+              <span class="stone-600">
               Place a non-stick frying pan over medium heat and add butter or
               oil.
-            </p>
+            </span>
+          </p>
           </li>
           <li>
-            <span class="steps">Cook the omelette:</span>
             <p>
+            
+              <span class="steps bold">Cook the omelette:</span>
+              <span class="stone-600">
               Once the butter is melted and bubbling, pour in the eggs. Tilt the
               pan to ensure the eggs evenly coat the surface.
-            </p>
+            </span>
           </li>
           <li>
-            <span class="steps">Add fillings (optional):</span>
-            <p>
+            <span class="steps bold">Add fillings (optional):</span>
+            <span class="stone-600">
               When the eggs begin to set at the edges but are still slightly
               runny in the middle, sprinkle your chosen fillings over one half
-              of the omelette.
+              of the omelette.</span>
             </p>
           </li>
           <li>
-            <span class="steps">Fold and serve:</span>
             <p>
+            <span class="steps bold">Fold and serve:</span>
+            <span class="stone-600">
               As the omelette continues to cook, carefully lift one edge and
               fold it over the fillings. Let it cook for another minute, then
               slide it onto a plate.
-            </p>
+            </span>
+          </p>
           </li>
           <li>
-            <span class="steps">Enjoy:</span>
-            <p>Serve hot, with additional salt and pepper if needed.</p>
+            <p>
+            <span class="steps bold">Enjoy:</span>
+            <span class="stone-600">Serve hot, with additional salt and pepper if needed.</span>
+          </p>
           </li>
         </ol>
       </section>
       <section class="nutrition">
         <h2 class="nutrition-title">Nutrition</h2>
-        <p>
+        <p class="stone-600">
           The table below shows nutritional values per serving without the
           additional fillings.
         </p>
-        <table class="table">
-          <!-- need to format properly -->
-          Calories 277kcal Carbs 0g Protein 20g Fat 22g
-        </table>
+        
       </section>
-    </div>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="https://christianwebdeveloper.com">Bill Hall</a>.
+      <section class="nutrition-values">
+       <div class="table">
+        <div class="row">
+          <div class="cell">
+            Calories
+          </div>
+          <div class="cell">
+            277 kcal
+          </div>
+        </div>
+        <div class="row">
+          <div class="cell">
+            Carbs
+          </div>
+          <div class="cell">
+            0g
+          </div>
+        </div>
+        <div class="row">
+          <div class="cell">
+            Protein
+          </div>
+          <div class="cell">
+            20g
+          </div>
+          </div>
+          <div class="row">
+            <div class="cell">
+              Fat
+            </div>
+            <div class="cell">
+              22g
+            </div>
+        </div>
+       </div>
+      </section>
+      <div class="attribution">
+        <p>
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://christianwebdeveloper.com">Bill Hall</a>.
+        </p>
+      </div>
     </div>
   </body>
 </html>

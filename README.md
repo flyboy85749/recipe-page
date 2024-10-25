@@ -24,8 +24,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://flyboy85749.github.io/recipe-page/)
+- Live Site URL: [Add live site URL here](https://javascriptprogrammer.net/recipe_page/)
 
 ## My process
 
@@ -50,8 +50,8 @@ I am always learning, and will continue to improve my skills by implementing the
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Css Tricks](https://css-tricks.com/) - I love this site and the excellent information that can be found here.
+- [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox) - Always a good place to start for any layout and design issues.
 
 ## Author
 

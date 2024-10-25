@@ -7,16 +7,23 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 1rem;
+  background-color: black;
+}
+
+.background {
+  padding: 4.375rem 0px 4.375rem 0px;
+  width: 68.75rem;
   background-color: hsl(30, 54%, 90%);
+  border-radius: 1.5rem;
 }
 
 .container {
   margin: 0 auto;
-  padding: 20px;
-  max-width: 768px;
+  padding: 1.25rem;
+  max-width: 48rem;
   background-color: hsl(0, 0%, 100%);
-  border-radius: 24;
+  border-radius: 1.5rem;
 }
 
 .recipe {
@@ -30,15 +37,15 @@ body {
 img {
   max-width: 90%;
   height: auto;
-  margin-left: 40px;
-  border-radius: 40px;
+  margin-left: 2.5rem;
+  border-radius: 2.5rem;
 }
 
 .recipe-title {
   font-family: "Young Serif", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: hsl(24, 5%, 18%);
 }
 
@@ -47,18 +54,18 @@ img {
 }
 
 .prep {
-  max-width: 1440px;
-  height: 172px;
-  margin: 0 60px 0 60px;
-  padding: 24px;
+  max-width: 90rem;
+  height: 10.75rem;
+  margin: 0 3.75rem 0 3.75rem;
+  padding: 1.5rem;
   line-height: 2;
   background-color: hsl(330, 100%, 98%);
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 
 .prep-time {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: hsl(332, 51%, 32%);
 }
 
@@ -71,24 +78,38 @@ h2 {
 }
 
 .nutrition-values {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+}
+
+.value {
+  color: #854632;
+  font-weight: bold;
+}
+
+.table {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  line-height: 1.5;
 }
 
 .row {
-  max-width: 600px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  margin: 10px 0;
+  margin-bottom: 1.25rem;
+}
+
+.heading {
+  font-weight: bold;
 }
 
 .cell {
-  margin: 30px 20px 20px 30px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .attribution {
@@ -97,7 +118,7 @@ h2 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 /* // <uniquifier>: Use a unique and descriptive class name
